@@ -4,7 +4,7 @@ this repository is backend
 
 using base project or study etc
 
-- laravel
+- laravel 11
 - MySQL 8.0
 - nginx
 
