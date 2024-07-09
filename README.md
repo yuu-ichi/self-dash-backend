@@ -8,6 +8,11 @@ using base project or study etc
 - MySQL 8.0
 - nginx
 
+## addon vscode plugin
+
+- Remote Development
+- Laravel Blade Snippets
+
 ## Getting Start
 
 - settings docker-cmpose.yml

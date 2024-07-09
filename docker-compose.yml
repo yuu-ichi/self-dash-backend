@@ -30,3 +30,23 @@ services:
       - ./docker/mysql/sql:/docker-entrypoint-initdb.d
     ports:
       - 3306:3306
+    networks:
+      - mysql_bridge
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - 8080:80
+    environment:
+      PMA_HOST: mysql
+      PMA_ARBITRARY: 1
+      PMA_HOSTS: mysql
+      PMA_USER: root
+      PMA_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    depends_on:
+      - db
+    networks:
+      - mysql_bridge
+
+networks:
+  mysql_bridge:
+    driver: bridge
