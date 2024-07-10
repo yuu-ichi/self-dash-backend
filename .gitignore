@@ -1,0 +1,5 @@
+# docker
+/docker/mysql/data/*
+.env
+
+# your setting
