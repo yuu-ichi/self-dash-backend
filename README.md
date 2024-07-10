@@ -55,6 +55,6 @@ DB_PASSWORD=
 
 ### How to artisan
 
-- migrate:`https://readouble.com/laravel/10.x/ja/migrations.html`
+- migrate:`https://readouble.com/laravel/11.x/ja/migrations.html`
   - `php artisan migrate`
   - `php artisan migrate:rollback --step={number|*}`
