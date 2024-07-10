@@ -49,6 +49,10 @@ DB_PASSWORD=
 
 - URL:http://localhost:8000/
 
+## admin
+
+- http://localhost:8080/
+
 ### How to artisan
 
 - migrate:`https://readouble.com/laravel/10.x/ja/migrations.html`
